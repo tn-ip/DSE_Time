@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="2027 香港中學文憑考試倒數、筆試時間表與鼓勵的話。Countdown and written exam timetable for the 2027 HKDSE."
+    />
+    <meta name="theme-color" content="#1f3d34" />
+    <title>DSE Time · 2027 文憑試倒數</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3d34'/%3E%3Ccircle cx='32' cy='28' r='12' fill='%23e8c17a'/%3E%3Cpath d='M8 48h48' stroke='%23d7e4dc' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至內容 Skip to content</a>
+
+    <header class="hero">
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Hong Kong Diploma of Secondary Education · 2027</p>
+        <h1>
+          <span class="h-zh">距離筆試開考</span>
+          <span class="h-en">Until the written exams begin</span>
+        </h1>
+        <p class="lede">
+          2027 年 4 月 6 日（星期二）早上 · 視覺藝術為時間表首日<br />
+          <span lang="en">6 April 2027 (Tue) morning · Visual Arts, first timetable day · Hong Kong time</span>
+        </p>
+
+        <div id="countdown" class="countdown" role="timer" aria-live="polite">
+          <div class="count-cell">
+            <span id="days" class="count-num">—</span>
+            <span class="count-label">日 <span lang="en">Days</span></span>
+          </div>
+          <div class="count-cell">
+            <span id="hours" class="count-num">—</span>
+            <span class="count-label">時 <span lang="en">Hours</span></span>
+          </div>
+          <div class="count-cell">
+            <span id="minutes" class="count-num">—</span>
+            <span class="count-label">分 <span lang="en">Minutes</span></span>
+          </div>
+          <div class="count-cell">
+            <span id="seconds" class="count-num">—</span>
+            <span class="count-label">秒 <span lang="en">Seconds</span></span>
+          </div>
+        </div>
+        <p id="countdown-status" class="status">正在以香港時間計算…</p>
+        <p id="hk-now" class="hk-now"></p>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section cores" aria-labelledby="cores-title">
+        <div class="wrap">
+          <header class="section-head">
+            <h2 id="cores-title">核心科目 Core subjects</h2>
+            <p>四科必修筆試，方便一眼對照。</p>
+          </header>
+          <div class="core-grid">
+            <article class="core-card">
+              <p class="core-date">4 月 8 日 · 四</p>
+              <h3>中國語文</h3>
+              <p lang="en">Chinese Language 1, 2</p>
+              <p class="core-session">上午 AM</p>
+            </article>
+            <article class="core-card">
+              <p class="core-date">4 月 9–10 日 · 五 / 六</p>
+              <h3>英國語文</h3>
+              <p lang="en">English Language 1–2 &amp; 3</p>
+              <p class="core-session">上午 AM · 聆聽及綜合能力於 10 日</p>
+            </article>
+            <article class="core-card">
+              <p class="core-date">4 月 12 日 · 一</p>
+              <h3>數學必修部分</h3>
+              <p lang="en">Mathematics Compulsory Part 1, 2</p>
+              <p class="core-session">上午 AM</p>
+            </article>
+            <article class="core-card">
+              <p class="core-date">4 月 13 日 · 二</p>
+              <h3>公民與社會發展</h3>
+              <p lang="en">Citizenship and Social Development</p>
+              <p class="core-session">上午 AM</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timetable" aria-labelledby="tt-title">
+        <div class="wrap">
+          <header class="section-head">
+            <h2 id="tt-title">2027 筆試時間表 Written timetable</h2>
+            <p>
+              摘錄自考評局附件一《2027 年香港中學文憑考試時間表》。帶
+              <span class="tag tent">註 2</span> 的科目會在報考截止後落實日期。
+            </p>
+          </header>
+
+          <div class="week">
+            <h3>第一週 · 4 月 6–10 日</h3>
+            <ol class="tt-list">
+              <li>
+                <time datetime="2027-04-06">4 月 6 日 二</time>
+                <span class="sess">AM</span>
+                <span class="sub">視覺藝術（一）及（二） <i>Visual Arts 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-07">4 月 7 日 三</time>
+                <span class="sess">AM</span>
+                <span class="sub">中國文學（一）及（二）／科技與生活（一）及（二） <i>Chinese Literature 1, 2 / Technology &amp; Living 1, 2</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li class="is-core">
+                <time datetime="2027-04-08">4 月 8 日 四</time>
+                <span class="sess">AM</span>
+                <span class="sub">中國語文（一）及（二） <i>Chinese Language 1, 2</i> <span class="tag core">核心</span></span>
+              </li>
+              <li class="is-core">
+                <time datetime="2027-04-09">4 月 9 日 五</time>
+                <span class="sess">AM</span>
+                <span class="sub">英國語文（一）及（二） <i>English Language 1, 2</i> <span class="tag core">核心</span></span>
+              </li>
+              <li class="is-core">
+                <time datetime="2027-04-10">4 月 10 日 六</time>
+                <span class="sess">AM</span>
+                <span class="sub">英國語文（三）（聆聽及綜合能力考核） <i>English Language 3 (Listening and Integrated Skills)</i> <span class="tag core">核心</span></span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="week">
+            <h3>第二週 · 4 月 12–17 日</h3>
+            <ol class="tt-list">
+              <li class="is-core">
+                <time datetime="2027-04-12">4 月 12 日 一</time>
+                <span class="sess">AM</span>
+                <span class="sub">數學必修部分（一）及（二） <i>Mathematics Compulsory Part 1, 2</i> <span class="tag core">核心</span></span>
+              </li>
+              <li class="is-core">
+                <time datetime="2027-04-13">4 月 13 日 二</time>
+                <span class="sess">AM</span>
+                <span class="sub">公民與社會發展 <i>Citizenship and Social Development</i> <span class="tag core">核心</span></span>
+              </li>
+              <li>
+                <time datetime="2027-04-14">4 月 14 日 三</time>
+                <span class="sess">AM</span>
+                <span class="sub">健康管理與社會關懷（一）及（二） <i>Health Management &amp; Social Care 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-15">4 月 15 日 四</time>
+                <span class="sess">AM</span>
+                <span class="sub">化學（一）及（二） <i>Chemistry 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-16">4 月 16 日 五</time>
+                <span class="sess">AM</span>
+                <span class="sub">地理（一）及（二） <i>Geography 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-17">4 月 17 日 六</time>
+                <span class="sess">AM</span>
+                <span class="sub">資訊及通訊科技（一）及（二） <i>Information &amp; Communication Technology 1, 2</i></span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="week">
+            <h3>第三週 · 4 月 19–24 日</h3>
+            <ol class="tt-list">
+              <li>
+                <time datetime="2027-04-19">4 月 19 日 一</time>
+                <span class="sess">AM</span>
+                <span class="sub">生物（一）及（二） <i>Biology 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-20">4 月 20 日 二</time>
+                <span class="sess">AM</span>
+                <span class="sub">設計與應用科技（一）及（二）／英語文學（一） <i>Design &amp; Applied Technology 1, 2 / Literature in English 1</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li>
+                <time datetime="2027-04-20">4 月 20 日 二</time>
+                <span class="sess">PM</span>
+                <span class="sub">英語文學（二） <i>Literature in English 2</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li>
+                <time datetime="2027-04-21">4 月 21 日 三</time>
+                <span class="sess">AM</span>
+                <span class="sub">物理（一）及（二） <i>Physics 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-22">4 月 22 日 四</time>
+                <span class="sess">AM</span>
+                <span class="sub">經濟（一）及（二） <i>Economics 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-23">4 月 23 日 五</time>
+                <span class="sess">AM</span>
+                <span class="sub">數學延伸部分單元（一）及（二） <i>Mathematics Extended Part Modules 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-24">4 月 24 日 六</time>
+                <span class="sess">AM</span>
+                <span class="sub">中國歷史（一）及（二） <i>Chinese History 1, 2</i></span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="week">
+            <h3>第四週 · 4 月 26–30 日</h3>
+            <ol class="tt-list">
+              <li>
+                <time datetime="2027-04-26">4 月 26 日 一</time>
+                <span class="sess">AM</span>
+                <span class="sub">企業、會計與財務概論（一）及（二） <i>Business, Accounting &amp; Financial Studies 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-27">4 月 27 日 二</time>
+                <span class="sess">AM</span>
+                <span class="sub">歷史（一）及（二） <i>History 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-28">4 月 28 日 三</time>
+                <span class="sess">AM</span>
+                <span class="sub">旅遊與款待（一）及（二） <i>Tourism &amp; Hospitality Studies 1, 2</i></span>
+              </li>
+              <li>
+                <time datetime="2027-04-29">4 月 29 日 四</time>
+                <span class="sess">AM</span>
+                <span class="sub">英語文學（一）／科技與生活（一）及（二）／體育（一）及（二）／音樂 1A 及 1B <i>Literature in English 1 / Technology &amp; Living 1, 2 / Physical Education 1, 2 / Music 1A &amp; 1B</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li>
+                <time datetime="2027-04-29">4 月 29 日 四</time>
+                <span class="sess">PM</span>
+                <span class="sub">英語文學（二） <i>Literature in English 2</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li>
+                <time datetime="2027-04-30">4 月 30 日 五</time>
+                <span class="sess">AM</span>
+                <span class="sub">倫理與宗教（一）及（二） <i>Ethics &amp; Religious Studies 1, 2</i></span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="week">
+            <h3>第五週 · 5 月 3–4 日</h3>
+            <ol class="tt-list">
+              <li>
+                <time datetime="2027-05-03">5 月 3 日 一</time>
+                <span class="sess">AM</span>
+                <span class="sub">英語文學（一）／科技與生活／體育／音樂 <i>Literature in English 1 / Technology &amp; Living / PE / Music</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li>
+                <time datetime="2027-05-03">5 月 3 日 一</time>
+                <span class="sess">PM</span>
+                <span class="sub">英語文學（二）／後備 <i>Literature in English 2 / Reserve</i> <span class="tag tent">註 2</span></span>
+              </li>
+              <li>
+                <time datetime="2027-05-04">5 月 4 日 二</time>
+                <span class="sess">AM</span>
+                <span class="sub">後備 <i>Reserve</i></span>
+              </li>
+            </ol>
+            <p class="note">5 月 1 日（星期六）為勞動節假期，不設考試。</p>
+          </div>
+
+          <aside class="extras">
+            <div>
+              <h3>實習／口試 Practical &amp; speaking</h3>
+              <ul>
+                <li>體育實習：2027 年 2 月下旬至 3 月下旬</li>
+                <li>音樂實習：2027 年 3 月上旬至 3 月中旬</li>
+                <li>英國語文口試（一般試場）：3 月中旬至下旬（星期一至五）</li>
+                <li>英國語文口試（特別試場）：3 月下旬</li>
+              </ul>
+            </div>
+            <div>
+              <h3>放榜 Results</h3>
+              <p>暫定約於 <strong>2027 年 7 月 14 日</strong>。<span lang="en">Tentative: around 14 July 2027.</span></p>
+              <p class="note">
+                註 2：英語文學、科技與生活、體育及音樂科的考試日期，將會在報考日期完結後落實。
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section encourage" aria-labelledby="msg-title">
+        <div class="wrap">
+          <header class="section-head">
+            <h2 id="msg-title">給你的話 A note for you</h2>
+            <p>備試的日子可以很長。慢慢來，你已經在路上。</p>
+          </header>
+          <figure class="quote-card">
+            <blockquote id="message-zh">一步一步來，已經很了不起了。</blockquote>
+            <p id="message-en" lang="en">One step at a time — that already counts for a lot.</p>
+            <div class="quote-actions">
+              <button type="button" id="next-message" class="btn">
+                下一句 Next
+              </button>
+              <p class="msg-hint">可在 <code>app.js</code> 的 <code>MESSAGES</code> 加入更多句子。</p>
+            </div>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <p>
+          時間表資料來源：
+          <a href="https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Exam_Timetable/2027_DSE_Timetable.pdf" rel="noopener noreferrer">
+            香港考試及評核局《2027 年香港中學文憑考試時間表》（附件一）
+          </a>
+        </p>
+        <p>
+          本頁並非考評局官方網站；如有更改，以
+          <a href="https://www.hkeaa.edu.hk/en/hkdse/admin/exam_timetable/" rel="noopener noreferrer">HKEAA 公布</a>
+          為準。倒數以 <strong>Asia/Hong_Kong</strong> 計算，目標為 2027 年 4 月 6 日上午 8:30（一般上午場開考時間）。
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
