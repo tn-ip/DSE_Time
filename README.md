@@ -6,7 +6,7 @@ The page shows:
 
 - a live countdown to the start of the 2027 written exams (**6 April 2027**, Visual Arts / first timetable day, `Asia/Hong_Kong`)
 - a bilingual summary of the written exam timetable (core subjects highlighted)
-- a short set of encouraging messages for students (edit `MESSAGES` in `app.js` to add more)
+- a short set of encouraging messages beside the timer (edit `messages.json` to add more)
 
 Subject dates are transcribed from HKEAA Annex 1, *Examination Timetable for 2027 HKDSE* (saved here as `2027_DSE_Timetable.pdf`). Always check the [official timetable](https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Exam_Timetable/2027_DSE_Timetable.pdf) if anything changes.
 
