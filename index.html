@@ -34,26 +34,45 @@
           <span lang="en">6 April 2027 (Tue) morning · Visual Arts, first timetable day · Hong Kong time</span>
         </p>
 
-        <div id="countdown" class="countdown" role="timer" aria-live="polite">
-          <div class="count-cell">
-            <span id="days" class="count-num">—</span>
-            <span class="count-label">日 <span lang="en">Days</span></span>
+        <div class="hero-panels">
+          <div class="hero-panel hero-timer">
+            <p class="panel-kicker">倒數 Countdown</p>
+            <div id="countdown" class="countdown" role="timer" aria-live="polite">
+              <div class="count-cell">
+                <span id="days" class="count-num">—</span>
+                <span class="count-label">日 <span lang="en">Days</span></span>
+              </div>
+              <div class="count-cell">
+                <span id="hours" class="count-num">—</span>
+                <span class="count-label">時 <span lang="en">Hours</span></span>
+              </div>
+              <div class="count-cell">
+                <span id="minutes" class="count-num">—</span>
+                <span class="count-label">分 <span lang="en">Minutes</span></span>
+              </div>
+              <div class="count-cell">
+                <span id="seconds" class="count-num">—</span>
+                <span class="count-label">秒 <span lang="en">Seconds</span></span>
+              </div>
+            </div>
+            <p id="countdown-status" class="status">正在以香港時間計算…</p>
+            <p id="hk-now" class="hk-now"></p>
           </div>
-          <div class="count-cell">
-            <span id="hours" class="count-num">—</span>
-            <span class="count-label">時 <span lang="en">Hours</span></span>
-          </div>
-          <div class="count-cell">
-            <span id="minutes" class="count-num">—</span>
-            <span class="count-label">分 <span lang="en">Minutes</span></span>
-          </div>
-          <div class="count-cell">
-            <span id="seconds" class="count-num">—</span>
-            <span class="count-label">秒 <span lang="en">Seconds</span></span>
-          </div>
+
+          <section class="hero-panel hero-note" aria-labelledby="msg-title">
+            <h2 id="msg-title" class="panel-kicker">給你的話 A note for you</h2>
+            <figure class="quote-card">
+              <blockquote id="message-zh">一步一步來，已經很了不起了。</blockquote>
+              <p id="message-en" lang="en">One step at a time — that already counts for a lot.</p>
+              <figcaption id="message-author" hidden></figcaption>
+              <div class="quote-actions">
+                <button type="button" id="next-message" class="btn">
+                  下一句 Next
+                </button>
+              </div>
+            </figure>
+          </section>
         </div>
-        <p id="countdown-status" class="status">正在以香港時間計算…</p>
-        <p id="hk-now" class="hk-now"></p>
       </div>
     </header>
 
@@ -287,24 +306,6 @@
               </p>
             </div>
           </aside>
-        </div>
-      </section>
-
-      <section class="section encourage" aria-labelledby="msg-title">
-        <div class="wrap">
-          <header class="section-head">
-            <h2 id="msg-title">給你的話 A note for you</h2>
-            <p>備試的日子可以很長。慢慢來，你已經在路上。</p>
-          </header>
-          <figure class="quote-card">
-            <blockquote id="message-zh">一步一步來，已經很了不起了。</blockquote>
-            <p id="message-en" lang="en">One step at a time — that already counts for a lot.</p>
-            <div class="quote-actions">
-              <button type="button" id="next-message" class="btn">
-                下一句 Next
-              </button>
-            </div>
-          </figure>
         </div>
       </section>
     </main>

@@ -6,9 +6,19 @@ The page shows:
 
 - a live countdown to the start of the 2027 written exams (**6 April 2027**, Visual Arts / first timetable day, `Asia/Hong_Kong`)
 - a bilingual summary of the written exam timetable (core subjects highlighted)
-- a short set of encouraging messages for students (edit `MESSAGES` in `app.js` to add more)
+- encouraging messages beside the timer, loaded from `messages.json`
 
 Subject dates are transcribed from HKEAA Annex 1, *Examination Timetable for 2027 HKDSE* (saved here as `2027_DSE_Timetable.pdf`). Always check the [official timetable](https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Exam_Timetable/2027_DSE_Timetable.pdf) if anything changes.
+
+## Add a teacher’s saying
+
+Edit `messages.json` and append an object. `text` is required; `en` and `author` are optional:
+
+```json
+{ "text": "你已經準備好了。", "en": "You are ready.", "author": "陳老師" }
+```
+
+Then commit and push, or open a pull request. There is no form — the file in this repo is the list.
 
 ## Open locally
 
